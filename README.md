@@ -1,6 +1,6 @@
 #  Kawaii Todo List (HTML & CSS Only)
 
-This is a simple and cute to-do list I created using only HTML and CSS. It’s based on a Figma design and was part of a learning task to practice front-end layout and styling. The goal was to focus on design — no JavaScript or functionality yet, just making it look like the Figma.
+This is a simple and cute to-do list I created using only HTML and CSS. It’s based on a Figma design and was part of a learning task to practice front-end layout and styling. The goal was to focus on design  no JavaScript or functionality yet, just making it look like the Figma.
 
 ---
 
@@ -55,23 +55,23 @@ kawaii-todo-list/
 
 ## Challenges I Faced
 
-.Many problems happened with image paths — I learned that absolute paths don’t work in web projects, and I should use relative ones like `assets/bunny.jpg`
+.Many problems happened with image paths. I learned that absolute paths don’t work in web projects, and I should use relative ones like `assets/bunny.jpg`
 . It took time to understand how to create folders properly and place files in the right structure
-. My background image wasn’t showing because I used the wrong syntax
-. Aligning the edit and delete icons inside the task list wasn’t easy
-. Getting the design to look like the Figma version took many tries and adjustments
-. Mobile responsiveness was confusing at first, especially padding and font sizes
-. At one point, the entire layout was broken due to height units missing (`px`)
-. I struggled a bit with Google Fonts at first and understanding when to use `font-family` correctly
-. I also had to debug opacity issues and learned that `opacity: 50%` is wrong — it should be `0.5`
-. Keeping the edit and delete icons aligned nicely inside the task list
-. Deciding how much spacing to use without breaking mobile layout
+. My background image wasn’t showing because I used the wrong syntax.
+. Aligning the edit and delete icons inside the task list wasn’t easy.
+. Getting the design to look like the Figma version took many tries and adjustments.
+. Mobile responsiveness was confusing at first, especially padding and font sizes.
+. At one point, the entire layout was broken due to height units missing (`px`).
+. I struggled a bit with Google Fonts at first and understanding when to use `font-family` correctly.
+. I also had to debug opacity issues.
+. Keeping the edit and delete icons aligned nicely inside the task list.
+. Deciding how much spacing to use without breaking mobile layout.
 
 ---
 
 ## ✅ Notes
 
-. This is only the UI part — no real functionality yet.
+. This is only the UI part  no real functionality yet.
 . Later I can add JavaScript to make the tasks actually work (add, edit, delete).
 . I really enjoyed styling the design and learned a lot through trial and error.
 
