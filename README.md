@@ -40,7 +40,7 @@ kawaii-todo-list/
 ---
 ## 📸 Screenshots
 
-*                              *
+* https://github.com/Fatiha-A/kawii-todo-list/blob/main/Screenshot%20.png *
 ---
 
 ## 🧠 What I Learned
