@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Carter One', cursive;
+  background-color: #d69091;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  flex-direction: column;
+  height: auto;
+}
+
+.dobox {
+  width: 1166px; 
+  height: auto;
+  overflow-y: auto;
+  background-size: cover;
+  background-image: url("bunny.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: space-between;
+  top: 94;
+  left: 165;
+  text-align: center;
+  background-color: #e9cece;
+  opacity: 0.4;
+  padding: 30px;
+  border-radius: 46px;
+  border: 1px;
+h1 {
+  color: #730002;
+  font-family: 'Carter One', cursive;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-bottom: 10px;
+}
+
+.input-p {
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  padding: 4px;
+  gap: 10px;
+  width: 100%;
+  max-width: 100%;
+  color: #f1dfdf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.input-p input {
+  padding: 12px 20px;
+  color: #730002;
+  border: #000000;
+  border-radius: 12px;
+  flex: 1;
+  font-size: 20px;
+}
+
+.add {
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  margin-left: 10px;
+  font-size: 20px;
+  color: #f08e8e;
+  cursor: pointer;
+}
+
+.succ {
+  font-size: 20px;
+  color: #730002;
+  font-family: 'Reem Kufi Ink', sans-serif;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.task-l{
+  list-style: none;
+  text-align: left;
+  padding: 0;
+}
+
+.task-l li {
+  padding: 12px 16px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  background: #f0dedefa;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+}
+
+.task-l li.done span:first-child {
+  text-decoration: line-through;
+  color: #702b2b;
+}
+.edit {
+  color: #FFFFFF;
+  font-size: 18px;
+  cursor: pointer;
+}
+.delete  {
+  color: #FFFFFF;
+  font-size: 18px;
+  cursor: pointer;
+}
+.bunny {
+  width: 400px;
+  height: auto;
+  display: block;
+  margin: 0 auto
+}
+@media (max-width: 570px) {
+  .dobox {
+    width: 100%;
+    height:100%;
+    margin: 20px;
+    display: block;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .task-l li,
+  .input-p input {
+    font-size: 16px;
+  }
+
+  .bunny {
+    width: 250px;
+  }
+}
