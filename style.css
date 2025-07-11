@@ -14,10 +14,9 @@ body {
   height: auto;
 }
 
-.container-i {
+.Todo-app-container {
   width: 1166px; 
-  height: 785;
-  overflow-y: auto;
+  height: 785px;
   background-size: cover;
   background-image: url("bunny.png");
   background-position: center;
@@ -38,17 +37,17 @@ h1 {
   font-size: 40px;
   line-height: 100%;
   letter-spacing: 0%;
-  margin-bottom: 10px;
+  margin-bottom: 1px;
 }
 
 .input-p {
-  background-color: #FFFFFF;
-  border-radius: 12px;
-  padding: 4px;
+  background-color: #f0dedefa;
+  border-radius: 50px;
+  padding: 12px 16px;
+  margin-bottom: 10px;
   gap: 10px;
   width: 100%;
   max-width: 100%;
-  color: #f1dfdf;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -56,61 +55,88 @@ h1 {
 }
 
 .input-p input {
-  padding: 12px 20px;
-  color: #730002;
+  background-color: #f0dedefa;
+  padding: 1px 1px;
+  margin-bottom: 10px;
+  border-radius: 1px;
+  color: #c08d8d;
   border: #000000;
-  border-radius: 12px;
+  font-weight: 400;
+  line-height: 100%; 
+  letter-spacing: 0%;
   flex: 1;
-  font-size: 20px;
+  font-size: 22px;
+  font-family: 'Reem Kufi Ink', sans-serif;
 }
 
 .add {
   background-color: #FFFFFF;
   border: none;
   border-radius: 50%;
-  width: 36px;
-  height: 36px;
-  margin-left: 10px;
-  font-size: 20px;
+  width: 46px;
+  height: 46px;
+  margin-left:333;
+  margin-left: 0px;
+  font-size: 25px;
   color: #f08e8e;
   cursor: pointer;
 }
 
 .succ {
+  height: 30px;
+  left: 615px;
   font-size: 20px;
   color: #730002;
   font-family: 'Reem Kufi Ink', sans-serif;
   font-weight: 400;
-  margin-bottom: 20px;
+  margin-top: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  font-size: 22px;
+  
 }
 
-.task-l{
+.app-task-l{
   list-style: none;
   text-align: left;
   padding: 0;
+
 }
 
-.task-l li {
+.app-task-l li {
   padding: 12px 16px;
   margin-bottom: 10px;
   border-radius: 12px;
   background: #f0dedefa;
+  font-family: 'Reem Kufi Ink', sans-serif;
+  font-weight: 400;
   display: flex;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 4%;
   justify-content: space-between;
   align-items: center;
-  font-size: 16px;
+  font-size: 24px;
 }
 
-.task-l li.done span:first-child {
+.app-task-l li.done span:first-child {
   text-decoration: line-through;
-  color: #702b2b;
+  color: #000000;   font-family: 'Reem Kufi Ink', sans-serif;
 }
 .edit {
+  width: 53px;
+  height: 45px;
+  top: 573px;
+  left: 1008px;
   color: #FFFFFF;
   font-size: 18px;
   cursor: pointer;
 }
 .delete  {
+  width: 55px;
+  height: 44px;
+  top: 570px;
+  left: 943px;
   color: #FFFFFF;
   font-size: 18px;
   cursor: pointer;
@@ -119,13 +145,13 @@ h1 {
   width: 390px;
   height: auto;
   display: block;
-  margin: 0 auto 0;
+  margin: 0 auto
 }
 @media (max-width: 570px) {
-  .container-i {
+  .Todo-app-container {
     width: 100%;
     height:100%;
-    margin: 20px;
+    margin: 10px;
     display: flex;
   }
 
@@ -133,7 +159,7 @@ h1 {
     font-size: 24px;
   }
 
-  .task-l li,
+  .app-task-l li,
   .input-p input {
     font-size: 16px;
   }
